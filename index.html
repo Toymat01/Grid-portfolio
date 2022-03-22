@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="header grid">
+            <h1>My Portfolio</h1>
+            <ul class="grid">
+                <li><a href="/#portflio" class="port-li" data-id="portfolio">Portfolio</a></li>
+                <li><a href="/#skills" class="skill-li" data-id="skills">Skills</a></li>
+                <li><a href="/#contacts" class="contact-li" data-id="contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <section class="welcome grid " >
+            <div class="welcome-text">
+                <h1>Hi, I'm <span>Adeyemi Toheeb</span>,and i am a web developer. </h1>
+                <h2>Science Enthusiast <br>& JavaScript Developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam amet laudantium neque ut. Facilis, inventore. Nesciunt blanditiis maiores quo culpa atque. Veniam.</p>
+                <a href="/" class="button">View my work</a>
+            </div>
+                <div class="welcome-img">
+                    <img src="banner_image.png" alt="">
+                </div>
+        </section>
+        <section class="portfolio " id="portfolio">
+            <h3>Some of my Project</h3>
+           <div class="grid project">
+                <a href="/"><img src="project_1.png" alt="Space Race Game">
+                <h4>Space Race Game</h4></a>
+                <a href="/"><img src="project_2.png" alt="planet boy">
+                <h4>Planet Boy API</h4></a>
+                <a href="/"><img src="project_3.png" alt="captain cosmo">
+                <h4>Captain Cosmo Blog</h4></a>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h3>Things I Can Do</h3>
+            <ul class="grid">
+                <li>
+                    <img src="comet_1.svg" alt="comet 1">
+                    <h4>JavaScript</h4>
+                </li>
+                <li>
+                    <img src="comet_2.svg" alt="comet 2">
+                    <h4>React</h4>
+                </li>
+                <li>
+                    <img src="comet_3.svg" alt="comet 3">
+                    <h4>React Native</h4>
+                </li>
+                <li>
+                    <img src="comet_4.svg" alt="comet 4">
+                    <h4>Firebase</h4>
+                </li>
+            </ul>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam amet laudantium neque ut. Facilis, inventore. Nesciunt blanditiis maiores quo culpa atque. Veniam.</p>
+        </section>
+        <section class="contact" id="contacts">
+            <h3>Get in Touch</h3>
+            <p class="leading">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form >
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+                <textarea  placeholder="YOUR MESSAGE"></textarea>
+                <button class="button">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            <div class="grid">
+                <p class="copyright">Copyright 2022 My Portfolio!</p>
+                <ul class="social">
+                    <li>
+                        <a href="/">
+                        <img src="icon_fb.svg" alt="">
+                        </a>
+                    </li>
+                    <a href="/">
+                        <img src="icon_tw.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+  
+   <script src="app.js"></script> 
+</body>
+</html>
